@@ -1,0 +1,95 @@
+/* Reset some default styles for consistency */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:rgb(89, 104, 177);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.properties {
+    margin-top: 2rem;
+}
+
+.properties h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Add more CSS styles as needed */
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Available property styling */
+.property-listing {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.property-listing img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.property-listing h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.property-listing .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.property-listing .location {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.property-listing .description {
+    color: #444;
+}
+
+.property-listing .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
